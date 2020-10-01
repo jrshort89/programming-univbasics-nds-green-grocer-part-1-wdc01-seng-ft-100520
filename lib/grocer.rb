@@ -3,7 +3,7 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   for elm in collection do
-    if name == elm
+    if name == elm.item
       return elm
     end
   end
