@@ -18,8 +18,8 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   newCart = {}
   cart.each { |item|
-    if newCart.value? item do
-      
+    if newCart.value?( item ) do
+      newCart[]
     end
   }
 end
