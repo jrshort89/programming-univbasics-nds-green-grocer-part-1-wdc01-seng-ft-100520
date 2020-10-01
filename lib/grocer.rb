@@ -1,9 +1,12 @@
+
+
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
   collection.each { |x|
     if x[:item] == name
+      binding.pry
       return x
   }
 end
