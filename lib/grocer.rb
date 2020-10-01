@@ -6,8 +6,8 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   collection.each { |x|
     count = 0
-    while collection.length > count do 
-      
+    while collection.length() > count do 
+      if 
     end
 end
 
