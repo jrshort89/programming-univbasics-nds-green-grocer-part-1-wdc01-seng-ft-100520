@@ -1,3 +1,5 @@
+require 'pry'
+
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
@@ -7,6 +9,7 @@ def find_item_by_name_in_collection(name, collection)
       if collection[count][:item] == name 
         return collection[count]
       end
+      count += 1
     end
 end
 
