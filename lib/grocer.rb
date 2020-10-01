@@ -18,7 +18,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   newCart = {}
   cart.each { |item|
-    if newCart.include? item do
+    if newCart.value? item do
       
     end
   }
